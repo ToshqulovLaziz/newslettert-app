@@ -1,0 +1,102 @@
+.latest-news {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F1F0F0;
+    .lastest-news__container {
+        max-width: 805px;
+    }
+    .latest-news__box--img {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .lastest-news__box--title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000;
+    }
+    .line {
+        width: 551px;
+        height: 0;
+        border: groove;
+        border: 2px solid #1A1A1A;
+    }
+    
+    .latest-news__box--link {
+        padding: 7px 20px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FDFDFD;
+        border-radius: 8px;
+        background-color: #04594D;
+        &:hover {
+            color: #000;
+            background-color: #FDFDFD;
+            border: 2px solid #000;
+        }
+    }
+    .latest-news__box--time {
+        font-size: 14px;
+        margin-left: 30px;
+        color: #0a2455;
+    }
+
+}
+.site-aside {
+    width: 410px;
+    background-color: #FDFDFD;
+}
+.site-aside__title {
+    font-size: 20px;
+    line-height: 100%;
+    color: #1A1A1A
+}
+.site-aside__link {
+    padding: 7px 22px;
+    font-size: 11px;
+    line-height: 100%;
+    border: none;
+    background-color: #1A1A1A;
+    border-radius: 3px;
+    color: #FDFDFD;
+}
+.aside__box--link {
+  padding: 7px 20px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FDFDFD;
+        border-radius: 8px;
+        background-color: #04594D;
+        &:hover {
+            color: #000;
+            background-color: #FDFDFD;
+            border: 2px solid #000;
+        }
+}
+.site-aside__box--img {
+    width: 140px;
+    height: 120px;
+}
+.aside__box--title {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 100%;
+    color: #1A1A1A;
+}
+.site-aside__box--end {
+    margin-left: 25px;
+}
+.aside__box--text {
+    margin-bottom: 20px;
+    font-size: 10px;
+    line-height: 100%;
+    color: #04594D;
+}
+.site-aside__box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #F1F0F0;
+    border-top: 2px solid #F1F0F0;
+}
